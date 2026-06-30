@@ -1,9 +1,11 @@
-name = "cf-tmdb"
+name = 'tmdb-proxy'
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
 [env.production]
 name = "cf-tmdb"
+# wrangler.toml
+
 
 [env.development]
 name = "cf-tmdb-dev"
